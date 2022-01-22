@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+
+[class*= 'col-'] {
+    float: left;
+    /*border: 1px solid grey;
+    min-height: 50px;*/
+    
+    
+
+}
+
+.row:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+
+
+/***** Header Area Starts *****/
+.header-area {
+    overflow: hidden;
+    padding: 20px 0px;
+}
+
+.header-area .icon-lekha i {
+    font-size: 25px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.header-area .icon-lekha p {
+    margin: 10px 0px;
+    color: #575757;
+    font-size: 16px;
+}
+
+.header-area .logo img {
+    width: 42%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+    vertical-align: middle;
+    
+} 
+
+.header-area .btn-lekha {
+    text-align: right;
+}
+
+.header-area .btn-lekha i {
+    font-size: 25px;
+    margin-right: 30px;
+}
+.header-area .btn-lekha button {
+    border: none;
+    background: #FFF;
+    color: #09f;
+    font-weight: 700;
+    padding: 7px 25px;
+    border: 1px solid #e2e2e2;
+    font-size: 16px;
+    letter-spacing: .6px;
+}
+
+.header-area .btn-lekha button:hover {
+    background: #e2e2e242;
+}
+
+.header-area .btn-lekha p {
+    margin: 20px 0px 10px 0px;
+    color: #575757;
+}
+/***** Header Area Ends *****/
+
+
+/***** Menu Area Starts *****/
+.menu-area  {
+    overflow: hidden;
+    border: 2px solid #e2e2e2;
+    padding: 10px 0px;
+
+}
+.menu-area .s-row ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.menu-area .s-row ul li {
+    display: inline;
+    margin: 0px 12px;
+}
+
+.menu-area .s-row ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 0px;
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.menu-area .s-row ul li a:hover {
+    color: #1a237e;
+}
+/***** Menu Area Starts *****/
+
+
+/***** Banner Area Starts *****/
+.banner-area {
+    overflow: hidden;
+    padding: 15px 0px;
+}
+
+.banner-area img {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    display: block;
+    border: 1px solid #000;
+}
+/***** Banner Area Ends *****/
+
+
+
+/***** Content-Area Starts*****/
+.content-area {
+    overflow: hidden;
+    padding: 30px 0px;
+    border: 1px solid  #e2e2e2;;
+}
+
+.content {
+    overflow: hidden;
+}
+
+.content-area .first, .content-area .second, .content-area .third, .content-area .forth {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.content .first h2,
+.content .third h3 {
+    margin: 10px 0px;
+}
+
+.content .first p,
+.content .third p {
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.content-area .content .second img {
+    width: 97%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.content-area .content .third img {
+    margin: 20px 0px;
+}
+.content-area .content .forth img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+/***** Content-Area Ends*****/
+
+
+
+@media screen and (max-width: 520px)
+{
+    [class*= 'clo-'] {
+        width: 100%;
+
+
+    }
+}
+
+
+@media screen and (min-width: 521px) and (max-width: 1000px) {
+    .clo-m1{width: 8.33%;}
+    .clo-m2{width: 16.66%;}
+    .clo-m3{width: 25%;}
+    .clo-m4{width: 33.33%;}
+    .clo-m5{width: 41.66%;}
+    .clo-m6{width: 50%;}
+    .clo-m7{width: 58.33%;}
+    .clo-m8{width: 66.66%;}
+    .clo-m9{width: 75%;}
+    .clo-m10{width: 83.33%;}
+    .clo-m11{width: 91.66%;}
+    .clo-m12{width: 100%;}
+
+    .f-none {
+        display: none;
+    }
+    .p-relative {
+        position: relative;
+    }
+    .p-abs {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+}
